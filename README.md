@@ -26,3 +26,7 @@ Currently containing a terminal customization for kitty
 ---
 
 Run `source ~/.zshrc` to reload zsh with the new configuration
+
+---
+Pywal Usage:
+```wal -i path/to/wallpaper```
