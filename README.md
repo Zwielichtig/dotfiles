@@ -8,6 +8,7 @@ Currently containing a terminal customization for kitty
 - oh-my-posh
 - fastfetch
 - pywal
+- JetBrains Mono Nerdfont (you can choose another)
 
 ---
 
