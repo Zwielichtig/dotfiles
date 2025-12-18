@@ -1,5 +1,5 @@
 # Dotfiles
-Currently containing a terminal customization for kitty
+Currently containing a terminal customization for kitty and a lazyvim config
 
 ## Software
 - fish
@@ -8,3 +8,4 @@ Currently containing a terminal customization for kitty
 - fastfetch
 - zoxide
 - JetBrains Mono Nerdfont (you can choose any nerdfont)
+- neovim
