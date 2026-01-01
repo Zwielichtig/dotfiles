@@ -1,5 +1,5 @@
 # Dotfiles
-Currently containing a terminal customization for kitty and a lazyvim config
+
 
 ## Software
 - fish
@@ -7,5 +7,17 @@ Currently containing a terminal customization for kitty and a lazyvim config
 - starship
 - fastfetch
 - zoxide
-- JetBrains Mono Nerdfont (you can choose any nerdfont)
+- JetBrains Mono Nerd Font
 - neovim
+
+
+
+## Hyprland
+
+plugin install:
+### split-workspaces
+´´´
+hyprpm add https://github.com/Duckonaut/split-monitor-workspaces # Add the plugin repository
+hyprpm enable split-monitor-workspaces # Enable the plugin
+hyprpm reload # Reload the plugins
+´´´

@@ -1,0 +1,90 @@
+# ~/.config/starship.toml
+"$schema" = "https://starship.rs/config-schema.json"
+
+# Prompt-wide settings
+add_newline = true
+scan_timeout = 30  # ms, time to scan files (e.g. for git)
+command_timeout = 500  # ms, time limit for commands run by starship
+follow_symlinks = true
+
+# Prompt character (e.g. arrow, prompt symbol)
+[character]
+success_symbol = '[❯](bold green) '   # prompt for success
+error_symbol   = '[❯](bold red) '     # prompt for error (non-zero exit)
+
+[directory]
+truncation_length = 2
+truncate_to_repo = false
+
+# Simplify prompt — disable modules not wanted
+[package]
+disabled = true
+
+[battery]
+disabled = true
+
+# Git status: show branch, dirty/staged/untracked, ahead/behind, etc.
+[git_status]
+# Main format
+format = " [$ahead_behind](bold red) "
+
+# Symbols for different file states
+ahead        = "⇡"
+behind       = "⇣"
+style        = "bold red"
+
+# Optionally show git branch/commit
+[git_branch]
+symbol = ' '
+format = "[$symbol$branch](bold purple)"
+
+[git_commit]
+# leave default formatting; will show commit hash after branch if present
+
+# Optional: show exit status of last command when non-zero
+[status]
+disabled = false
+format = '[$symbol]($style) '
+symbol = '❌'
+success_symbol = ''
+style = 'bold red'
+
+# Optional: show jobs count (for shells like zsh/fish)
+[jobs]
+disabled = true
+
+# OS info (if you want to see OS name) — disabled by default
+[os]
+disabled = true
+[nodejs]
+disabled = true
+[php]
+disabled = true
+[python]
+disabled = true
+[ruby]
+disabled = true
+[rust]
+disabled = true
+[golang]
+disabled = true
+[java]
+disabled = true
+[deno]
+disabled = true
+[elixir]
+disabled = true
+[erlang]
+disabled = true
+[haskell]
+disabled = true
+[ocaml]
+disabled = true
+[crystal]
+disabled = true
+[lua]
+disabled = true
+[julia]
+disabled = true
+[swift]
+disabled = true
