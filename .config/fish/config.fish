@@ -9,11 +9,18 @@ set -g fish_greeting ""
 # --- Starship prompt ---
 starship init fish | source
 
+# --- alias ---
+function ls
+    eza --icons --group-directories-first --hyperlink
+end
+
+function ll
+    eza --icons --group-directories-first --hyperlink --all --long --git
+end
 
 # --- Custom commands ---
 if status is-interactive
-#	fastfetch --logo ~/customs/rice/fastfetch_logos/ghostfreak.txt
-        fastfetch -l drauger
+    fastfetch -l drauger
 end
 
 # --- Setup zoxide ---
