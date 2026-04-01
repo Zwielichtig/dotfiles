@@ -11,11 +11,11 @@ starship init fish | source
 
 # --- alias ---
 function ls
-    eza --icons --group-directories-first --hyperlink $argv
+    command eza --icons --group-directories-first --hyperlink $argv
 end
 
 function ll
-    eza --icons --group-directories-first --hyperlink --all --long --git $argv
+    command eza --icons --group-directories-first --hyperlink --all --long --git $argv
 end
 
 # --- Custom commands ---
