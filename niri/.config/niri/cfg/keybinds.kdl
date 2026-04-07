@@ -14,6 +14,7 @@ binds {
     Super+O                             hotkey-overlay-title="toggle ControlCenter" { spawn-sh "qs -c noctalia-shell ipc call controlCenter toggle"; }
     Super+P                             hotkey-overlay-title="toggle Wallpaper-Menu" { spawn-sh "qs -c noctalia-shell ipc call wallpaper toggle"; }
     Super+SHIFT+P                       hotkey-overlay-title="toggle Settings" { spawn-sh "qs -c noctalia-shell ipc call settings toggle"; }
+    Super+A                             hotkey-overlay-title="open AI Panel" { spawn-sh "qs -c noctalia-shell ipc call plugin:assistant-panel toggle"; } 
     Super+ESCAPE                        hotkey-overlay-title="Lock Screen" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
 
     XF86AudioRaiseVolume                { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "volume" "increase"; }
