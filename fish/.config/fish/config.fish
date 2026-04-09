@@ -20,8 +20,11 @@ end
 
 # --- Custom commands ---
 if status is-interactive
-    fastfetch -l drauger
+    fastfetch -l arch3
 end
 
 # --- Setup zoxide ---
 zoxide init fish | source
+
+
+export PATH="$HOME/.cargo/bin:$PATH"
