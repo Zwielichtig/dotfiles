@@ -63,16 +63,16 @@
 			"keyColor": "yellow"
 		},
 		{
-			"type": "memory",
-			"key": "├─󰑭",
-			"keyColor": "yellow"
-		},
-		{
-            "key": "╰─󰉉",
+            "key": "├─󰉉",
             "type": "disk",
             "folders": "/",
 			"keyColor": "yellow"
         },
+		{
+			"type": "memory",
+			"key": "╰─󰑭",
+			"keyColor": "yellow"
+		},
 		"break",
 		{
             "key": "   ",
