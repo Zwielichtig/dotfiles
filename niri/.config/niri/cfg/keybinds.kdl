@@ -10,7 +10,7 @@ binds {
 
 
     // ================== NOCTALIA ==================
-    Super+Space                         hotkey-overlay-title="toggle Launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
+    Super+Space                         hotkey-overlay-title="toggle Launcher" { spawn-sh "noctalia msg panel-toggle launcher"; }
     Super+O                             hotkey-overlay-title="toggle ControlCenter" { spawn-sh "qs -c noctalia-shell ipc call controlCenter toggle"; }
     Super+P                             hotkey-overlay-title="toggle Wallpaper-Menu" { spawn-sh "qs -c noctalia-shell ipc call wallpaper toggle"; }
     Super+SHIFT+P                       hotkey-overlay-title="toggle Settings" { spawn-sh "qs -c noctalia-shell ipc call settings toggle"; }
