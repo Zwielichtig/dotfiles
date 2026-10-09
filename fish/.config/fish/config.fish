@@ -20,7 +20,7 @@ end
 
 # --- Custom commands ---
 if status is-interactive
-    fastfetch -l arch3
+    fastfetch -l NixOS2
 end
 
 # --- Setup zoxide ---
