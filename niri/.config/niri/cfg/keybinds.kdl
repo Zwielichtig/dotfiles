@@ -12,8 +12,9 @@ binds {
     // ================== NOCTALIA ==================
     Super+Space                         hotkey-overlay-title="toggle Launcher" { spawn-sh "noctalia msg panel-toggle launcher"; }
     Super+O                             hotkey-overlay-title="toggle ControlCenter" { spawn-sh "noctalia msg panel-toggle control-center"; }
-    Super+P                             hotkey-overlay-title="toggle Wallpaper-Menu" { spawn-sh "noctalia msg panel-toggle noctalia/wallhaven:browser"; }
-    Super+SHIFT+P                       hotkey-overlay-title="toggle Settings" { spawn-sh "noctalia msg settings-toggle"; }
+    Super+SHIFT+O                       hotkey-overlay-title="toggle Settings" { spawn-sh "noctalia msg settings-toggle"; }
+    Super+P                             hotkey-overlay-title="toggle Wallpaper-Menu" { spawn-sh "noctalia msg panel-toggle wallpaper"; }
+    Super+SHIFT+P                       hotkey-overlay-title="toggle Wallhaven" { spawn-sh "noctalia msg panel-toggle noctalia/wallhaven:browser"; }
     Super+A                             hotkey-overlay-title="open AI Panel" { spawn-sh "qs -c noctalia-shell ipc call plugin:assistant-panel toggle"; }
     Super+Shift+A                       hotkey-overlay-title="Clear AI Panel" { spawn-sh "qs -c noctalia-shell ipc call plugin:assistant-panel clear"; }
     Super+ESCAPE                        hotkey-overlay-title="Lock Screen" { spawn-sh "noctalia msg session lock"; }
